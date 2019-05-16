@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FaceFonts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+  </head>
+  <body>
+    <!-- NOTE: classes for background style -->
+    <div class="b-g"></div>
+    <div class="b-g2"></div>
+
+    <!-- NOTE: video container -->
+    <div class="container-fluid">;
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-center">FaceFonts Alpha</h1>
+          <div class="text-center">
+            <a href="#" id="filter1">Filter 1</a>
+            <a href="#" id="filter2">Filter 2</a>
+            <a href="#" id="filter 3">Filter 3</a>
+
+            <video id="video" width="320" height="240" preload autoplay loop muted></video>
+            <canvas id="canvas" width="320" height="240"></canvas>
+
+          </div>
+        </div><!-- NOTE: end of col-sm-12 -->
+      </div><!-- NOTE: end of row -->
+    </div><!-- NOTE: end of container -->
+
+    <!-- NOTE: script links  -->
+    <script src="../build/tracking-min.js"></script>
+    <script src="../build/data/face-min.js"></script>
+    <script src="../build/data/eye-min.js"></script>
+    <script src="../build/data/mouth-min.js"></script>
+    <script src="../build/data/face.js"></script>
+    <script src="../build/data/mouth.js"></script>
+    <script src="../build/data/eye.js"></script>
+     <script src="../node_modules/dat.gui/build/dat.gui.min.js"></script>
+    <script src="assets/stats.min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
